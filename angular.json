@@ -25,6 +25,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_module/bootswatch/dist/lux/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []

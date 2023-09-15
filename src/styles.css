@@ -1,7 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 /* Add application styles & imports to this file! */
-html,
-body {
+@import "bootswatch/dist/lux/bootstrap.min.css"
+
+html, body ;{
   padding: 0;
   margin: 0;
   background-color: #edf1f5;

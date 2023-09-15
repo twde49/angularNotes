@@ -1,3 +1,6 @@
+@import "bootswatch/dist/lux/bootstrap.min.css";
+
+
 form div {
   padding: 5px;
 }

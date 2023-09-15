@@ -1,3 +1,5 @@
+@import "bootswatch/dist/lux/bootstrap.min.css";
+
 h1 {
   background-color: #e6f16b;
   margin: 0;

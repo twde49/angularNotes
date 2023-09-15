@@ -1,3 +1,6 @@
+@import "bootswatch/dist/lux/bootstrap.min.css";
+
+
 #note-container {
   background-color: #fff;
   margin: 10px;

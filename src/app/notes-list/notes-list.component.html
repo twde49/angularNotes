@@ -1,9 +1,12 @@
 <div class="container">
+  <nav>
+    <button routerLink="./new">Add One</button>
+  </nav>
   <ul class="notes">
-    <li *ngFor="let note of NOTES">
+    <li *ngFor="let note of notes">
       <button (click)="show(note.title)">
-      <span class="note-title">{{note.title}}</span>
-      <span class="note-text">{{note.text}}</span>
+        <span class="note-title">{{ note.title }}</span>
+        <span class="note-text">{{ note.text }}</span>
       </button>
     </li>
   </ul>

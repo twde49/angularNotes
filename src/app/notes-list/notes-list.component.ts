@@ -1,19 +1,19 @@
 import { Component } from '@angular/core';
-import {CommonModule, NgFor} from '@angular/common';
-import {NOTES} from "../../notes";
+import { NgFor } from '@angular/common';
+import { NOTES } from '../../notes';
+import {RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-notes-list',
   standalone: true,
-  imports: [CommonModule,NgFor],
-  templateUrl: `notes-list.component.html`,
-  styleUrls: ['./notes-list.component.css']
+  templateUrl: './notes-list.component.html',
+  styleUrls: ['./notes-list.component.css'],
+  imports: [NgFor, RouterLink],
 })
 export class NotesListComponent {
-  notes= NOTES
-  protected readonly NOTES = NOTES;
+  notes = NOTES;
 
-  show(title:String){
-    alert(title)
+  show(title: string) {
+    alert(title);
   }
 }

@@ -23,4 +23,5 @@ export class NoteDetailComponent {
     NOTES.splice(this.index,1)
     this.router.navigateByUrl("/")
   }
+
 }
